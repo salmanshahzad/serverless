@@ -1,0 +1,7 @@
+packages:
+  - name: serverless
+    actions:
+      - name: foo
+        runtime: "nodejs:default"
+        environment:
+          FOO: "${FOO}"
